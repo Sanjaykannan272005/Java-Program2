@@ -9,5 +9,6 @@ public class window extends Applet{
    public void paint(Graphics g)
    {
        g.drawString("welcome"+n+"to"+a,20,20);
+       System.out.println("welcome");
    }
 }    
